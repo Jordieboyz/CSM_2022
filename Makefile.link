@@ -1,0 +1,8 @@
+
+
+RELATIVE          ?= .
+TI-SOFTWARE       := $(RELATIVE)/..
+
+# Add hwlib
+HWLIB             ?= $(TI-SOFTWARE)/hwlib
+include           $(HWLIB)/makefile.inc
